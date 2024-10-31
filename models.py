@@ -1299,3 +1299,6 @@ class SimpleHSICNN(nn.Module):
         x = self.fc2(x)
 
         return x
+    
+class HSi_model(nn.Module):
+    print("This is a test")
